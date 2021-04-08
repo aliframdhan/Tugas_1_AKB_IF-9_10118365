@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tema"
+    tools:context=".ProfileActivity2">
+
+    //Pengerjaan tanggal 07 April 2021
+    // NIM   : 10118365
+    // NAMA  : ALIF RAHDMAN KUSAERI
+    // KELAS : IF-9
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/tema"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/foto"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10118365"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALIF RAMDHAN KUSAERI"
+            android:textSize="23sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IF-9"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama saya Alif Ramdhan Kusaeri, saya jurusan Teknik Informatika Universitas Komputer Indonesia"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saya lahir di Indramayu tanggal 04/01/2000, Saya berasal dari Kabupaten Indramayu"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="2dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:onClick="keluar"/>
+
+    </LinearLayout>
+
+</LinearLayout>
